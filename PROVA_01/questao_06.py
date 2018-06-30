@@ -5,14 +5,18 @@
 def obter_dicionario(qtde):
     dic = {}
     for i in range(qtde):
-        nome = input("Digite o nome do contanto %d" % (i + 1))
-        telefone = input("Digite o número de telefone de %s" % nome)
+        nome = input("Digite o nome do contanto %d: " % (i + 1))
+        telefone = input("Digite o número de telefone de %s: " % nome)
 
         dic[nome] = telefone
 
     return dic
 
+def exibir_contatos(agenda):
+    print("\nExibindo contatos...")
+    for nome, telefone in agenda.items():
+        print("Nome:", nome + ", Telefone:", telefone)
+
 qtde = int(input("Quantas pessoas deseja adicionar na agenda? "))
 agenda = obter_dicionario(qtde)
-
-print(agenda)
+exibir_contatos(agenda)
