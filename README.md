@@ -1,5 +1,5 @@
 # desenvolvimento-web2
-Disciplina de Desenvolvimento Web II com prof. Ritomar no Instituto Federal do Piauí - 2018.1
+Disciplina de Desenvolvimento Web II com prof. Ritomar Torquato no Instituto Federal do Piauí - 2018.1
 
 Questões da 1ª avaliação
 
